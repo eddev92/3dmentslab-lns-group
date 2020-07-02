@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="author" content="Grupo Inversionista Linus">
+    <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
+    <!-- Mobile Specific Metas
+    ================================================== -->
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <meta name="theme-color" content="#000000" />
+    <meta
+      name="description"
+      content="Web site created using create-react-app"
+    />
+    <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" />
+    <!--
+      manifest.json provides metadata used when your web app is installed on a
+      user's mobile device or desktop. See https://developers.google.com/web/fundamentals/web-app-manifest/
+    -->
+
+    	<!-- Google Web Fonts
+    ================================================== -->
+    <link href="https://fonts.googleapis.com/css?family=Rajdhani:300,400,500,600,700" rel="stylesheet">
+  
+    <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
+    	<!-- CSS
+    ================================================== -->
+    <!-- Vendor CSS -->
+    <link href="%PUBLIC_URL%/vendor/magnific-popupmagnific-popup.css" rel="stylesheet">
+    <link href="%PUBLIC_URL%/vendor/slick/slick.css" rel="stylesheet">
+    <link href="%PUBLIC_URL%/vendor/nanoscroller/nanoscroller.css" rel="stylesheet">
+    <link href="%PUBLIC_URL%/vendor/fontawesome/brands.css" rel="stylesheet">
+
+    <!-- Template CSS-->
+    <link href="%PUBLIC_URL%/css/style.css" rel="stylesheet">
+
+    <!-- Custom CSS-->
+    <link href="%PUBLIC_URL%/css/custom.css" rel="stylesheet">
+    <title>React App</title>
+  </head>
+  <body>
+    <noscript>You need to enable JavaScript to run this app.</noscript>
+    <div id="root" class="site-wrapper"></div>
+
+    <div class="preloader-overlay">
+      <div id="js-preloader" class="preloader">
+        <div class="preloader-inner fadeInUp">
+          <div class="pong-loader"></div>
+          <svg role="img" class="df-icon df-icon--preloader-arcade">
+            <use xlink:href="assets/img/necromancers.svg#preloader-arcade"/>
+          </svg>
+        </div>
+      </div>
+    </div>
+  
+    <!-- The cursor elements -->
+    <div class="cursor cursor--small"></div>
+    <canvas class="cursor cursor--canvas"></canvas>
+  
+    <!-- Javascript Files
+    ================================================== -->
+    <!-- Core JS -->
+    <script src="%PUBLIC_URL%/vendor/jquery/jquery.min.js"></script>
+    <script src="%PUBLIC_URL%/vendor/jquery/jquery-migrate.min.js"></script>
+    <script src="%PUBLIC_URL%/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="%PUBLIC_URL%/js/core.js"></script>
+    
+    <!-- Vendor JS -->
+    
+    <!-- Template JS -->
+    <script src="%PUBLIC_URL%/js/init.js"></script>
+    <script src="%PUBLIC_URL%/js/custom.js"></script>
+    
+    <!-- Duotone SVG color filter -->
+    <svg xmlns="http://www.w3.org/2000/svg" class="svg-filters">
+      <filter id="duotone_base">
+        <feColorMatrix type="matrix" result="grayscale"
+          values="1 0 0 0 0
+                  1 0 0 0 0
+                  1 0 0 0 0
+                  0 0 0 1 0" />
+        <feComponentTransfer color-interpolation-filters="sRGB" result="duotone_base_filter">
+          <feFuncR type="table" tableValues="0.082352941176471 0.419607843137255"></feFuncR>
+          <feFuncG type="table" tableValues="0.090196078431373 0.443137254901961"></feFuncG>
+          <feFuncB type="table" tableValues="0.125490196078431 0.6"></feFuncB>
+          <feFuncA type="table" tableValues="0 1"></feFuncA>
+        </feComponentTransfer>
+      </filter>
+    </svg>
+  </body>
+</html>
