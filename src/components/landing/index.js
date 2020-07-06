@@ -6,7 +6,7 @@ const LandingComponent = () => {
   const toHome = () => {
     setGoHome(true)
   }
-  if (goHome) return <HomeComponent isActive={goHome} />
+  // if (goHome) return <HomeComponent isActive={goHome} />
 
   return (
   <div class="site-wrapper">

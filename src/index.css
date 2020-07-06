@@ -11,3 +11,47 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+/* STYLES AUX */
+
+.menu-panel.menu-panel--active {
+  visibility: visible;
+  opacity: 1;
+}
+
+.menu-panel.menu-panel--active .menu-panel__content {
+  opacity: 1;
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+    -webkit-transition: opacity ease 320ms, -webkit-transform ease 800ms;
+    transition: opacity ease 320ms, -webkit-transform ease 800ms;
+    transition: opacity ease 320ms, transform ease 800ms;
+    transition: opacity ease 320ms, transform ease 800ms, -webkit-transform ease 800ms;
+}
+.site-wrapper .scroll-horizontal {
+  position: absolute !important;
+}
+
+.horizontalScroll--desactive {
+  display: none !important;
+}
+
+/* .horizontalScroll--active {
+  display: hidden;
+} */
+
+@media (min-width: 992px) {
+  .content.blog-layout--style-1, .content.blog-layout--style-4 {
+      grid-template-rows: 50% 50%;
+      height: fit-content !important;
+  }
+}
+
+@media (max-width: 990px) {
+  .horizontalScroll--desactive {
+    display: block !important;
+  }
+  .horizontalScroll--active {
+    display: none !important;
+  } 
+}

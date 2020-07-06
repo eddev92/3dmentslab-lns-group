@@ -990,30 +990,40 @@
 		},
 
 		horizontalScroll: function() {
-			console.log("horizontalScroll")
-			var horizontalLayout = $( '.site-layout--horizontal' ),
-				scrollSpeed,
-				OSName;
+			// console.log("horizontalScroll")
+			// const horizontalLayout = $( 'body' );
+			// let	scrollSpeed;
+			// let i = 1;
+			// let acum = 40;
+			// let	OSName = "";
+			// console.log(horizontalLayout)
+			// console.log(horizontalLayout.exists())
+			// if ( horizontalLayout.exists() ) {
+			// 	console.log("horizontalScroll")
+			// 	$( '.site-wrapper' ).mousewheel(function(e, delta) {
+			// 		console.log(delta)
+			// 		if ( _windowWidth > 991 ) {
 
-			if ( horizontalLayout.exists() ) {
+			// 			console.log("horizontalScroll")
+			// 			scrollSpeed = delta;
 
-				$( '.site-wrapper' ).mousewheel(function(e, delta) {
+			// 			if ( navigator.appVersion.indexOf( "Win" ) !== -1 ) {
+			// 				console.log("horizontalScroll")
+			// 				OSName = "Windows";
+			// 				scrollSpeed = delta * 40;
+			// 			}
+			// 			console.log(scrollSpeed)
+			// 			this.scrollLeft = 80;
+			// 			console.log(i*acum)
+			// 			i++;
+			// 			console.log(i)
+			// 			console.log(this.scrollLeft)
+			// 			console.log(OSName)
+			// 			e.preventDefault();
 
-					if ( _windowWidth > 991 ) {
+			// 		}
 
-						scrollSpeed = delta;
-
-						if ( navigator.appVersion.indexOf( "Win" ) != -1 ) {
-							OSName = "Windows";
-							scrollSpeed = delta * 40;
-						}
-
-						this.scrollLeft -= scrollSpeed;
-						e.preventDefault();
-
-					}
-
-				});
+			// 	});
 			}
 
 			// $( 'body' ).mousewheel( function( event ) {
