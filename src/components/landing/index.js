@@ -1,13 +1,15 @@
 import React, { useState } from 'react';
+import { Route, Link, BrowserRouter as Router, Switch } from 'react-router-dom'
 import HomeComponent from '../home'
+// import history from '../../utils/utils'
 
-const LandingComponent = () => {
+const LandingComponent = ({ history }) => {
   const [goHome, setGoHome] = useState(false);
   const toHome = () => {
     setGoHome(true)
+    history.push('/home')
   }
   // if (goHome) return <HomeComponent isActive={goHome} />
-
   return (
   <div class="site-wrapper">
 

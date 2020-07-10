@@ -55,3 +55,9 @@ code {
     display: none !important;
   } 
 }
+/* 
+@media (min-width: 992px) {
+  .landing-detail, .landing-detail-cover {
+      display: none;
+  }
+} */

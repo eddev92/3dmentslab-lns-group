@@ -1,6 +1,11 @@
 import React from 'react';
+import history from '../../../utils/utils'
+import { Route, Link, BrowserRouter as Router, Switch } from 'react-router-dom'
 
 const MenuPanelComponent = ({ isActive = false }) => {
+    const toShop = () => {
+    history.push('/home/shop')
+  }
 return (
   <div className={`menu-panel ${isActive ? 'menu-panel--active': ''}`}>
 			<ul className="menu-panel__mobile-bar list-unstyled d-md-none">
@@ -173,7 +178,7 @@ return (
 								<a href="home.html">INICIO</a>
 							</li>
 							<li className="">
-								<a href="team-selection-2.html">NOSOTROS</a>
+								<a><Link to="/nosotros">NOSOTROS</Link></a>
 								<ul className="dl-submenu">
 									<li className="">
 										<a href="#">Team Selections</a>
@@ -261,7 +266,7 @@ return (
 								</ul>
 							</li> */}
 							<li className="">
-								<a href="shop.html">TIENDA</a>
+								<a ><Link to="/shop">TIENDA</Link></a>
 								<ul className="dl-submenu">
 									<li className=""><a href="shop.html">Shop Page v1</a></li>
 									<li className=""><a href="shop-2.html">Shop Page v2</a></li>

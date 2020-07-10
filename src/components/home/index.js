@@ -326,7 +326,7 @@ const HomeComponent = () => {
                     <a href="#">Gaming</a>
                   </li>
                 </ul>
-                <h2 className="post__title h4"><a href="blog-post.html">League of heroes presented a new character</a></h2>
+                <h2 className="post__title h4"><a href="blog-post.html">INVERSIONES & SOCIEDAD</a></h2>
                 <ul className="post__meta list-unstyled">
                   <li className="post__meta-item post__meta-item--date">
                     <a href="#">August 15th, 2018</a>
@@ -352,7 +352,7 @@ const HomeComponent = () => {
                     <a href="#">eSports</a>
                   </li>
                 </ul>
-                <h2 className="post__title h4"><a href="blog-post.html">The Necromancers emerge victorious once more!</a></h2>
+                <h2 className="post__title h4"><a href="blog-post.html">MOBILIARIOS & FABRICACIÓN DIGITAL 3D</a></h2>
                 <ul className="post__meta list-unstyled">
                   <li className="post__meta-item post__meta-item--date">
                     <a href="#">August 14th, 2018</a>
@@ -378,7 +378,7 @@ const HomeComponent = () => {
                     <a href="#">eSports</a>
                   </li>
                 </ul>
-                <h2 className="post__title h4"><a href="blog-post.html">Matt Rodgers talks about becoming a pro gamer</a></h2>
+                <h2 className="post__title h4"><a href="blog-post.html">VARIEDAD DE PRODUCTOS</a></h2>
                 <ul className="post__meta list-unstyled">
                   <li className="post__meta-item post__meta-item--date">
                     <a href="#">August 10th, 2018</a>
@@ -404,7 +404,7 @@ const HomeComponent = () => {
                     <a href="#">Gaming</a>
                   </li>
                 </ul>
-                <h2 className="post__title h4"><a href="blog-post.html">Magimons will have a new className: Pyromancer</a></h2>
+                <h2 className="post__title h4"><a href="blog-post.html">MOTOCICLISMO & AVENTURA</a></h2>
                 <ul className="post__meta list-unstyled">
                   <li className="post__meta-item post__meta-item--date">
                     <a href="#">August 8th, 2018</a>
@@ -435,7 +435,7 @@ const HomeComponent = () => {
                     <a href="#">Videos</a>
                   </li>
                 </ul>
-                <h2 className="post__title h4"><a href="blog-post.html">Jack shows a sneak peak of the new loh expansion</a></h2>
+                <h2 className="post__title h4"><a href="blog-post.html">DESARROLLO DE SOFTWARE</a></h2>
                 <ul className="post__meta list-unstyled">
                   <li className="post__meta-item post__meta-item--date">
                     <a href="#">August 3rd, 2018</a>
@@ -461,7 +461,7 @@ const HomeComponent = () => {
                     <a href="#">eSports</a>
                   </li>
                 </ul>
-                <h2 className="post__title h4"><a href="blog-post.html">The team tested the new vr pod at 2018 gamexcon</a></h2>
+                <h2 className="post__title h4"><a href="blog-post.html">IMPORTACIONES</a></h2>
                 <ul className="post__meta list-unstyled">
                   <li className="post__meta-item post__meta-item--date">
                     <a href="#">July 24th, 2018</a>
